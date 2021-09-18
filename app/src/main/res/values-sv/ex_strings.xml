@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_done">Klar</string>
+    <string name="btn_try">FÖRSÖK IGEN</string>
+    <string name="face_intro_next">NÄSTA</string>
+    <string name="face_intro_remember">Kom ihåg:</string>
+    <string name="face_intro_summary">Lås upp din telefon genom att titta på den.</string>
+    <string name="face_intro_title">Om ansiktsupplåsning</string>
+    <string name="face_value_prop_cancel">Nej, tack</string>
+    <string name="face_camera_content">Justera ditt ansikte</string>
+    <string name="face_try_content">Något gick fel</string>
+    <string name="perm_required_alert_button_app_info">Appinformation</string>
+    <string name="perm_required_alert_title">Behörigheter krävs</string>
+</resources>
