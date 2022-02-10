@@ -1,5 +1,20 @@
 package com.aospextended.faceunlock;
 
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_DARKLIGHT;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_BLUR;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_MULTI;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_NOT_COMPLETE;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_OFFSET_LEFT;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_OFFSET_RIGHT;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_ROTATED_LEFT;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_ROTATED_RIGHT;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_SCALE_TOO_LARGE;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_SCALE_TOO_SMALL;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FAILED;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_HALF_SHADOW;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_HIGHLIGHT;
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_KEEP;
+
 import android.Manifest;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -22,21 +37,6 @@ import com.aospextended.faceunlock.util.CircleSurfaceView;
 import com.aospextended.faceunlock.util.Settings;
 import com.aospextended.faceunlock.util.SharedUtil;
 import com.aospextended.faceunlock.util.Util;
-
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_DARKLIGHT;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_BLUR;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_MULTI;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_NOT_COMPLETE;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_OFFSET_LEFT;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_OFFSET_RIGHT;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_ROTATED_LEFT;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_ROTATED_RIGHT;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_SCALE_TOO_LARGE;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_SCALE_TOO_SMALL;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FAILED;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_HALF_SHADOW;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_HIGHLIGHT;
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_KEEP;
 
 public class FaceEnrollActivity extends FaceBaseActivity {
     private static final String TAG = FaceEnrollActivity.class.getSimpleName();

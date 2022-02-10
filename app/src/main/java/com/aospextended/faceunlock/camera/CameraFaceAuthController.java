@@ -1,5 +1,7 @@
 package com.aospextended.faceunlock.camera;
 
+import static com.aospextended.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_NOT_FOUND;
+
 import android.content.Context;
 import android.graphics.ImageFormat;
 import android.graphics.SurfaceTexture;
@@ -19,8 +21,6 @@ import com.aospextended.faceunlock.camera.listeners.ReadParametersListener;
 import com.aospextended.faceunlock.util.Util;
 
 import java.nio.ByteBuffer;
-
-import static com.aospextended.faceunlock.FaceConstants.MG_UNLOCK_FACE_NOT_FOUND;
 
 public class CameraFaceAuthController {
     private static final int CAM_MSG_ERROR = 101;
