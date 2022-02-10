@@ -24,9 +24,9 @@ android_app {
         "faceunlock_vendor_framework",
     ],
     required: [
-        "privapp-permissions-com.aospextended.faceunlock",
+        "privapp-permissions-org.aospextended.faceunlock",
         "hiddenapi-whitelist-com.aospextended.faceunlock",
-        "faceunlock_dependencies",
+        "faceunlock_vendor_dependencies",
     ],
 }
 
